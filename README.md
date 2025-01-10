@@ -1,8 +1,29 @@
+# Airbnb Clone
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
 
-First, run the development server:
+- Install dependncies
+
+      npm install
+
+- Create .env file
+
+      DATABASE_URL=your-mongodb-url
+      NODE_ENV=development
+
+      GITHUB_ID=your-id
+      GITHUB_SECRET=your-secret
+
+      GOOGLE_CLIENT_ID=your-id
+      GOOGLE_CLIENT_SECRET=your-secret
+
+      NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME=your_cloud_name
+      NEXTAUTH_URL=your-url
+      NEXTAUTH_SECRET=your-next-auth-secret
+
+- then, run the development server:
 
 ```bash
 npm run dev
