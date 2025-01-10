@@ -1,0 +1,9 @@
+.categories {
+  -ms-overflow-style: none; 
+  scrollbar-width: none;
+  overflow-x: scroll;
+}
+
+.categories::-webkit-scrollbar {
+  display: none; 
+}
